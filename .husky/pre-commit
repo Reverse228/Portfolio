@@ -1,1 +1,7 @@
-npm test
+#!/bin/sh
+yarn build
+
+npx tsc
+
+npx eslint './src/{app, components, utils}/**/*' --ext .tsx,.ts --max-warnings 80
+
