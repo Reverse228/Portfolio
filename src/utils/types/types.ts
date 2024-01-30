@@ -8,5 +8,4 @@ export type FundamentalActions = {
   onClick?: () => void;
   onChange?: () => void;
   onBlur?: () => void;
-  dv;
 };
