@@ -23,6 +23,8 @@
       "@types/*": ["src/utils/types/*"],
       "@theme": ["src/utils/theme"],
       "@theme/*": ["src/utils/theme/*"],
+      "@components": ["src/components"],
+      "@components/*": ["src/components/*"],
       "@svg/*": ["public/svg/*"]
     }
   },

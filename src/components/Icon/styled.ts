@@ -6,6 +6,8 @@ import { theme } from '@theme';
 import type { StyledIconProps } from './types';
 
 export const Wrapper = styled.div<StyledIconProps>`
+  display: flex;
+
   svg {
     ${({ size }) => {
       switch (size) {

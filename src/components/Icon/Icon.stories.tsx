@@ -35,7 +35,7 @@ export default {
 } as Meta<typeof Icon>;
 
 export const Primary: StoryObj<typeof Icon> = {
-  render: (props) => <Icon {...props} Svg={GitHub} />,
+  render: (props) => <Icon {...props} Svg={<GitHub />} />,
   args: {
     size: 'M',
     color: 'dark',

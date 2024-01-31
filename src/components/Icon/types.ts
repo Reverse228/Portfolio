@@ -1,4 +1,3 @@
-import type { ElementType } from 'react';
 import type { Color, FundamentalActions, Size } from '@types';
 
 export type StyledIconProps = {
@@ -9,5 +8,5 @@ export type StyledIconProps = {
 
 export type IconProps = StyledIconProps &
   FundamentalActions & {
-    Svg: ElementType;
+    Svg: JSX.Element;
   };
