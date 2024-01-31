@@ -1,8 +1,8 @@
-export type Size = "S" | "M" | "L";
+export type Size = 'S' | 'M' | 'L';
 
-export type Variant = "standard" | "filled" | "outland";
+export type Variant = 'filled' | 'outland';
 
-export type Color = "dark" | "light" | "success" | "error" | "alert";
+export type Color = 'dark' | 'light' | 'success' | 'error' | 'alert';
 
 export type FundamentalActions = {
   onClick?: () => void;

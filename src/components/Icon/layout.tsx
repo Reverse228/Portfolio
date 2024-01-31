@@ -6,9 +6,5 @@ import * as S from './styled';
 export const Icon: FC<IconProps> = (props) => {
   const { Svg, ...restProps } = props;
 
-  return (
-    <S.Wrapper {...restProps}>
-      <Svg />
-    </S.Wrapper>
-  );
+  return <S.Wrapper {...restProps}>{Svg}</S.Wrapper>;
 };
